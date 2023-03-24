@@ -48,7 +48,11 @@ Incorporate accessibility features such as adjustable text sizes, alternative in
 
 ## PoC components
 
-_describe the functionality of a minimal PoC_
+We aim to first build a minimal proof of concept to demonstrate the core functionality we want to achieve.
+
+We want to generate art in the form of a static image from a written blurb about each character.
+
+We want to be able to generate appropriate music from the description of a general scene, for example entering a dungeon, walking through a forest, or entering an inn.
 
 ### Example inputs (PoC)
 
