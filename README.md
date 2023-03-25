@@ -8,10 +8,10 @@ The dungeon master specifies the core setting  of the world and tone of the plot
 
 Worldweaver is aimed at tabletop RPG enthusiasts, game masters, and players looking to enhance their gaming experiences with immersive visuals and sounds.
 
-<p align="center">
+<!-- <p align="center">
   <img src="static/goblin.png" alt="Griknir" title="Griknir" />
     "A short,fat, wrinkled goblin character. Scowling. Standing over a pile of gizmos.Steampunk aesthetic. Day. RPG class card portrait. Engineer"
-</p>
+</p> -->
 
 <p align="center">
   <img src="static/crow.png" alt="Carlak" title="Carlak" />
