@@ -1,8 +1,8 @@
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
-from app.api.routes import images, music
-from app.services.ai import AIModel
+from worldweaver.api.routes import images, music
+from worldweaver.services.ai import AIModel
 
 
 # Initialize the AIModel instance and add it to the app's dependency container
@@ -18,7 +18,7 @@ app = FastAPI(lifespan=lifespan)
 
 
 # Register the API routes
-app.include_router(images.router, prefix="/api/v1", tags=["image"])
-app.include_router(music.router, prefix="/api/v1", tags=["music"])
+worldweaver.include_router(images.router, prefix="/api/v1", tags=["image"])
+worldweaver.include_router(music.router, prefix="/api/v1", tags=["music"])
 
 # Middleware and additional settings can be added here

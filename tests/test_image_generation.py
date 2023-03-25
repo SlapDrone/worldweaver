@@ -1,6 +1,6 @@
 import pytest
 from tests.conftest import test_app
-from app.models.image import CharacterDescription
+from worldweaver.models.image import CharacterDescription
 
 @pytest.mark.parametrize("description, name", 
     [
@@ -9,7 +9,7 @@ from app.models.image import CharacterDescription
     ]
 )
 def test_generate_image(description, name, test_app):
-    response = test_app.post(
+    response = test_worldweaver.post(
         "/api/v1/generate-image",
         json={
             "description": description,

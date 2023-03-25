@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
-from app.models.image import CharacterDescription, GeneratedImage
-from app.services.ai import AIModel
-from app.services.image import ImageService
+from worldweaver.models.image import CharacterDescription, GeneratedImage
+from worldweaver.services.ai import AIModel
+from worldweaver.services.image import ImageService
 
 router = APIRouter()
 

@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
-from app.models.music import SceneDescription, GeneratedMusic
-from app.services.ai import AIModel
-from app.services.music import MusicService
+from worldweaver.models.music import SceneDescription, GeneratedMusic
+from worldweaver.services.ai import AIModel
+from worldweaver.services.music import MusicService
 
 router = APIRouter()
 

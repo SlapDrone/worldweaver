@@ -1,6 +1,6 @@
 from typing import Union
-from app.models.image import CharacterDescription
-from app.models.music import SceneDescription
+from worldweaver.models.image import CharacterDescription
+from worldweaver.models.music import SceneDescription
 
 class AIModel:
     def generate_image(self, character_description: CharacterDescription) -> str:

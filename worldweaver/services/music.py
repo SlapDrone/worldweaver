@@ -1,5 +1,5 @@
-from app.models.music import SceneDescription, GeneratedMusic
-from app.services.ai import AIModel
+from worldweaver.models.music import SceneDescription, GeneratedMusic
+from worldweaver.services.ai import AIModel
 
 class MusicService:
     def __init__(self, ai_model: AIModel):

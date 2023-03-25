@@ -4,6 +4,6 @@
 
 ### Text-to-Image Models
 
-- [Stability AI (Stable Diffusion) API docs](https://api.stability.ai/docs#tag/v1generation/operation/textToImage) (requires API Key)
+- [Stability AI (Stable Diffusion) API docs](https://platform.stability.ai/docs/features/text-to-image) (requires API Key)
 
 - [HuggingFace Spaces](https://huggingface.co/spaces)

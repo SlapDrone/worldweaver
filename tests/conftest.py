@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from app.main import app
+from worldweaver.main import app
 
 @pytest.fixture(scope="module")
 def test_app():
