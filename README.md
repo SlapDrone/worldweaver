@@ -12,6 +12,10 @@ Worldweaver is aimed at tabletop RPG enthusiasts, game masters, and players look
 
 *"A short,fat, wrinkled goblin character. Scowling. Standing over a pile of gizmos.Steampunk aesthetic. Day. RPG class card portrait. Engineer"*
 
+<p align="center">
+  <img src="static/crow.png" alt="Alt text" title="Optional title" />
+</p>
+
 ![Carlak](static/crow.png)
 
 *"Robed human-sized crow with arms. Feathered. Female.Maniacal. Standing over a wooden table filled with potions.Clutching coloured vials to its chest Beside a Cauldron. Steampunk aesthetic. Outside. Town in background. Day. RPG class card portrait. Alchemist."*
