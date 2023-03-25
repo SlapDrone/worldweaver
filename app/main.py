@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.routes import image, music
+from app.api.routes import images, music
 from app.services.ai import AIModel
 
 app = FastAPI()
@@ -11,7 +11,7 @@ async def startup_event():
     app.container.bind(AIModel, ai_model)
 
 # Register the API routes
-app.include_router(image.router, prefix="/api/v1", tags=["image"])
+app.include_router(images.router, prefix="/api/v1", tags=["image"])
 app.include_router(music.router, prefix="/api/v1", tags=["music"])
 
 # Middleware and additional settings can be added here
