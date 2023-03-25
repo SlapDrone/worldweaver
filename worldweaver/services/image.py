@@ -118,7 +118,24 @@ if __name__ == "__main__":
     config = StabilitySettings()
     stability_ai = StabilityAI(config)
     desc = CharacterDescription(
-        name="Sulk Brogan",
-        description="A washed-up moody forty-something ex-wrestler who has grown fat from steroid abuse sitting in front of a monitor on reddit, night."
+        name="Griknir",
+        description=(
+            "A short, fat, wrinkled goblin character. "
+            "Scowling."
+            "Standing over a pile of gizmos. "
+            "Steampunk aesthetic. Day."
+            "RPG class card portrait. Engineer."
+        )
+    )
+    desc = CharacterDescription(
+        name="Carlak",
+        description=(
+            "Robed human-sized crow with arms. Feathered. Female. Maniacal."
+            "Standing over a wooden table filled with potions."
+            "Clutching coloured vials to its chest."
+            "Beside a Cauldron. "
+            "Steampunk aesthetic. Outside. Town in background. Day."
+            "RPG class card portrait. Alchemist."
+        )
     )
     img = stability_ai.generate_image(desc)

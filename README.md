@@ -8,6 +8,9 @@ The dungeon master specifies the core setting  of the world and tone of the plot
 
 Worldweaver is aimed at tabletop RPG enthusiasts, game masters, and players looking to enhance their gaming experiences with immersive visuals and sounds.
 
+![Griknir](static/goblin.png){: caption="A short, fat, wrinkled goblin character. Scowling. Standing over a pile of gizmos.Steampunk aesthetic. Day. RPG class card portrait. Engineer." }
+![Carlak](static/crow.png){: caption="Robed human-sized crow with arms. Feathered. Female. Maniacal.Standing over a wooden table filled with potions.Clutching coloured vials to its chest.Beside a Cauldron. Steampunk aesthetic. Outside. Town in background. Day. RPG class card portrait. Alchemist."}
+
 ## Key Features
 
 ### AI-Generated Art
