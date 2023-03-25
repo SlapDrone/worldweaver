@@ -4,7 +4,7 @@ Worldweaver is an application that synthesises immersive art and music to enrich
 
 It leverages generative AI along with speech-to-text models to listen to your mic and transcribe in-game dialogue and actions, all to provide an immersive and dynamic gaming environment. 
 
-The dungeon master specifies the core setting  of the world and tone of the plot. The players provide character descriptions (and potentially illustrations) which are used as inputs to generate compelling, contextually relevant art and music to accompany the game.
+The dungeon master specifies the core setting  of the world and tone of the plot. The players provide character descriptions (and potentially illustrations or photographs of their likeness) which are used as inputs to generate compelling, contextually relevant art and music to accompany the game.
 
 Worldweaver is aimed at tabletop RPG enthusiasts, game masters, and players looking to enhance their gaming experiences with immersive visuals and sounds.
 
