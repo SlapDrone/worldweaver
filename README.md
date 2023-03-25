@@ -14,7 +14,7 @@ Worldweaver is aimed at tabletop RPG enthusiasts, game masters, and players look
 
 ![Carlak](static/crow.png)
 
-*"Robed human-sized crow with arms. Feathered. Female.Maniacal.Standing over a wooden table filled with potions.Clutching coloured vials to its chest Beside a Cauldron. Steampunk aesthetic. Outside. Town in background. Day. RPG class card portrait. Alchemist."*
+*"Robed human-sized crow with arms. Feathered. Female.Maniacal. Standing over a wooden table filled with potions.Clutching coloured vials to its chest Beside a Cauldron. Steampunk aesthetic. Outside. Town in background. Day. RPG class card portrait. Alchemist."*
 
 ## Key Features
 
