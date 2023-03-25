@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import image, music
+from app.api.routes import image, music
 from app.services.ai import AIModel
 
 app = FastAPI()

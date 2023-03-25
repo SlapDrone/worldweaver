@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "worldweaver"
+version = "0.1.0"
+description = "A real-time application to enhance tabletop RPG experiences with AI-generated art and music."
+authors = ["SlapDrone", "Lacico"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "3.10.8"
+fastapi = "*"
+uvicorn = "*"
+gunicorn = "*"
+pydantic = "*"
+httpx = "*"
+transformers = "*"
+pytest = "*"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest-asyncio = "*"
+pytest-cov = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+mypy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
