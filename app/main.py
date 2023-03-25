@@ -1,14 +1,21 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from app.api.routes import images, music
 from app.services.ai import AIModel
 
-app = FastAPI()
 
 # Initialize the AIModel instance and add it to the app's dependency container
-@app.on_event("startup")
-async def startup_event():
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # load the model
     ai_model = AIModel()
-    app.container.bind(AIModel, ai_model)
+    yield
+    del ai_model
+
+
+app = FastAPI(lifespan=lifespan)
+
 
 # Register the API routes
 app.include_router(images.router, prefix="/api/v1", tags=["image"])
