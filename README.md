@@ -1,5 +1,7 @@
 # Worldweaver
 
+**Worldweaver is a work in progress and at the very early PoC-building stage. This document describes our vision for what it will become.**
+
 Worldweaver is an application that synthesises immersive art and music to enrich tabletop roleplaying game experiences for the players.
 
 It leverages generative AI along with speech-to-text models to listen to your mic and transcribe in-game dialogue and actions, all to provide an immersive and dynamic gaming environment. 
