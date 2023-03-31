@@ -117,25 +117,29 @@ if __name__ == "__main__":
     load_dotenv(".env")
     config = StabilitySettings()
     stability_ai = StabilityAI(config)
-    desc = CharacterDescription(
-        name="Griknir",
-        description=(
+
+    desc_goblin_manual = (
             "A short, fat, wrinkled goblin character. "
             "Scowling."
             "Standing over a pile of gizmos. "
             "Steampunk aesthetic. Day."
             "RPG class card portrait. Engineer."
         )
-    )
+    desc_gpt4_goblin_zero_shot = "A stout, wrinkled goblin with a scowl, dressed in steampunk attire, standing over a pile of intricate gizmos, set during daytime, with a RPG class card portrait design featuring an 'Engineer' title."
+
     desc = CharacterDescription(
-        name="Carlak",
-        description=(
-            "Robed human-sized crow with arms. Feathered. Female. Maniacal."
-            "Standing over a wooden table filled with potions."
-            "Clutching coloured vials to its chest."
-            "Beside a Cauldron. "
-            "Steampunk aesthetic. Outside. Town in background. Day."
-            "RPG class card portrait. Alchemist."
-        )
+        name="Griknir",
+        description=desc_gpt4_goblin_zero_shot
     )
+    # desc = CharacterDescription(
+    #     name="Carlak",
+    #     description=(
+    #         "Robed human-sized crow with arms. Feathered. Female. Maniacal."
+    #         "Standing over a wooden table filled with potions."
+    #         "Clutching coloured vials to its chest."
+    #         "Beside a Cauldron. "
+    #         "Steampunk aesthetic. Outside. Town in background. Day."
+    #         "RPG class card portrait. Alchemist."
+    #     )
+    # )
     img = stability_ai.generate_image(desc)
